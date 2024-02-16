@@ -1,0 +1,152 @@
+#client{
+    text-align: center;
+}
+
+#client .client-bars{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+#client .client-bar{
+    width: 23%;
+    min-width:250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative; 
+}
+#client .client-bars:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#client .client-bars img{
+    width: 100%;
+    border-radius: 20px;
+}
+#client .client-bars .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#client .client-bars .des span{
+    color: #606063;
+  font-size: 12px;
+}
+#client .client-bars .des p{
+    padding-top: 7px;
+   color: #1a1a1a;
+   font-size: 14px;
+}
+
+
+#contact {
+    left: 40px;
+    padding: 50px;
+    margin-right: 30px;
+    text-align: center;
+    /* display: flex; */
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    color: #333; 
+  }
+  
+  #contact p {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #555; /* Replace with your desired text color */
+    margin-bottom: 30px; /* Adjust the margin as needed */
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Replace with your desired border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contactForm textarea {
+    resize: vertical;
+  }
+  
+  .submitBtn {
+    background-color: #3498db; /* Replace with your desired background color */
+    color: #fff; /* Replace with your desired text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .links {
+    margin-top: 20px;
+    display: flex; 
+   justify-content: center;
+  }
+  
+  .link {
+    height: 40px;
+    margin: 0 9px;
+  }
+  
+
+/* #contact{
+    text-align: center;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vh;
+    max-width: 60rem;
+}
+
+
+
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: #808080;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+.links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}   */
